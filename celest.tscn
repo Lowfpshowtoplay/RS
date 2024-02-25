@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://c3rfifgwkanm"]
+
+[ext_resource type="AudioStream" uid="uid://6beccvtugwpk" path="res://[Official] Celeste Original Soundtrack - 03 - Resurrections.mp3" id="1_tl6l5"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_tl6l5")
+autoplay = true
