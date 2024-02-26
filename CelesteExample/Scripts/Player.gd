@@ -124,7 +124,7 @@ func _physics_process(delta: float) -> void:
 	if dashIsActive:
 		## every time you advance 16 pixels, create a blue sprite effect.
 		var mod = round(dashStartPos.distance_to(global_position));
-		if mod > 16 && dashEffectCount > 0:
+		if mod > 24 && dashEffectCount > 0:
 			var inst = dash_effect.instantiate();
 			var inst_sprite:= inst.get_node("Player") as AnimatedSprite2D;
 			var img = ImageTexture.new()

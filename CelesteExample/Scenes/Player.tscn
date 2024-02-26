@@ -753,11 +753,9 @@ volume_db = 12.0
 
 [node name="PixelPerfectCamera" type="Camera2D" parent="."]
 position = Vector2(0, -51)
-zoom = Vector2(0.8, 0.8)
+zoom = Vector2(0.72, 0.72)
 limit_left = 0
 limit_top = 0
-position_smoothing_enabled = true
-rotation_smoothing_enabled = true
 script = ExtResource("70_e0upn")
 smooth = 0.0
 

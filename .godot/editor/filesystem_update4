@@ -1,1 +1,4 @@
+res://CelesteExample/Scenes/Player.tscn
+res://CelesteExample/Scripts/Player.gd
 res://CelesteExample/Scenes/game.tscn
+res://celest.tscn
